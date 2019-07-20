@@ -1,6 +1,6 @@
 ---
 layout: default
 ---
-#{{ page.title }}
-{{ content }}
-{{ page.date }} - Written by {{ page.author }}
+<h1>{{ page.title }}</h1>
+<p>{{ content }}</p>
+<p>{{ page.date }} - Written by {{ page.author }}</p>
